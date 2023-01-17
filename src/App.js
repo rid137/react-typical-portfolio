@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Nav /> */}
+      <Nav />
       <About />
       <Experience />
       <Services />
