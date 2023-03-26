@@ -99,6 +99,10 @@
         gap: 1rem;
     }
 
+    .about-card {
+        margin-top: 0.5rem;
+    }
+
     .about-content {
         text-align: center;
     }
