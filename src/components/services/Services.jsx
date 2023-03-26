@@ -49,7 +49,7 @@ const Services = () => {
         </article>
 
         {/* WEB DEV CONTAINER */}
-        <article className='service'>
+        <article className='service web'>
           <div className="service-head">
             <h3>Web Development</h3>
           </div>
