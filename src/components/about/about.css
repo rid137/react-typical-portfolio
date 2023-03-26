@@ -83,6 +83,11 @@
     .about-content p {
         margin: 1rem 0 1.5rem;
     }
+
+    .about-card {
+        margin-top: 0.5rem;
+    }
+    
 }
 
 /* ========== MQ (SMALL DEVICES) =========*/
@@ -97,10 +102,6 @@
     .about-cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
-    }
-
-    .about-card {
-        margin-top: 0.5rem;
     }
 
     .about-content {

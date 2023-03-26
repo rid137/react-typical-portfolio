@@ -58,6 +58,11 @@
     .experience-content {
         padding: 1rem;
     }
+
+    .experience-details :nth-child(1) {
+        margin-right: 0.5rem;
+    }
+    
 }
 
 /* ========== MQ (SMALL DEVICES) =========*/
