@@ -49,6 +49,10 @@
         grid-template-columns: 1fr;
     }
 
+    .experience-container :nth-child(1) {
+        margin-bottom: 0.5rem;
+    }
+
     .experience-container > div {
         width: 80%;
         padding: 2rem;
