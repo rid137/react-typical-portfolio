@@ -14,9 +14,9 @@ const Header = () => {
           <CTA />  
           <HeaderSocials /> 
 
-          {/* <div className="me">
+          <div className="me">
             <img src={ME} alt="" />
-          </div> */}
+          </div>
 
           <a href="#contact" className='scroll-down' >Scroll Down </a>
         </div>
