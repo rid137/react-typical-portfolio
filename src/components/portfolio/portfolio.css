@@ -46,6 +46,10 @@
     article {
         margin-top: 15px;
     }
+
+    .portfolio-item-cta > :nth-child(1) {
+        margin-right: 10px;
+    }
 }
 
 /* ========== MQ (SMALL DEVICES) =========*/
