@@ -41,6 +41,10 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+
+    .portfolio-item-cta > :nth-child(1) {
+        margin-right: 10px;
+    }
 }
 
 /* ========== MQ (SMALL DEVICES) =========*/
