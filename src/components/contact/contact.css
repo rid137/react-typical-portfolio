@@ -70,7 +70,11 @@ input, textarea {
     }
 
     .contact-option {
-        margin: 20px 0px;
+        margin: 15px 0px;
+    }
+
+    input, textarea {
+        margin-bottom: 10px;
     }
 }
 
