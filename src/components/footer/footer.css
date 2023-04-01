@@ -62,7 +62,15 @@ footer a {
         gap: 1.5rem;
     }
 
+    .permalinks > * {
+        margin-top: 10px;
+    }
+
     .footer-socials {
         margin-bottom: 2.6rem;
+    }
+
+    .footer-socials > * {
+        margin: 0 7px;
     }
 }
