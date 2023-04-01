@@ -68,6 +68,10 @@ input, textarea {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
+    .contact-option {
+        margin: 20px 0px;
+    }
 }
 
 /* ========== MQ (SMALL DEVICES) =========*/
