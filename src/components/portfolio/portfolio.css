@@ -43,8 +43,8 @@
         margin-top: 10px;
     }
 
-    .portfolio-item-cta > :nth-child(1) {
-        margin-right: 10px;
+    article {
+        margin-top: 15px;
     }
 }
 
