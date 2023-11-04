@@ -97,3 +97,11 @@ header {
         display: none;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .cta {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}

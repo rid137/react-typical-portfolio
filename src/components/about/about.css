@@ -104,6 +104,10 @@
         gap: 1rem;
     }
 
+    .about-card {
+        padding: 1rem;
+    }
+
     .about-content {
         text-align: center;
     }

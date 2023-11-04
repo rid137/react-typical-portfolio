@@ -67,7 +67,7 @@ const About = () => {
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.5 }}
             variants={{
-              hidden: { opacity: 0, x: 50 },
+              hidden: { opacity: 0, x: 15 },
               visible: { opacity: 1, x: 0 },
             }}
           >
@@ -98,7 +98,7 @@ const About = () => {
             viewport={{ once: true, amount: 0.5 }}
             transition={{ delay: 0.2, duration: 0.5 }}
             variants={{
-              hidden: { opacity: 0, x: 50 },
+              hidden: { opacity: 0, x: 15 },
               visible: { opacity: 1, x: 0 },
             }}
           >
@@ -117,7 +117,7 @@ const About = () => {
             viewport={{ once: true, amount: 0.5 }}
             transition={{ delay: 0.4, duration: 0.5 }}
             variants={{
-              hidden: { opacity: 0, x: 50 },
+              hidden: { opacity: 0, x: 15 },
               visible: { opacity: 1, x: 0 },
             }}
           >

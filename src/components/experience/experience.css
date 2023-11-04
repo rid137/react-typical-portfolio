@@ -83,3 +83,10 @@
         padding: 2rem 1rem;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .experience-content {
+        grid-template-columns: 1fr;
+        gap: .5rem;
+    }
+}
