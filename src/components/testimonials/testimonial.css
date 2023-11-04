@@ -15,7 +15,8 @@
 .testimonial {
     background: var(--color-bg-variant);
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
     border-radius: 2rem;
     user-select: none;
 }
@@ -26,6 +27,7 @@
     display: block;
     width: 80%;
     margin: .8rem auto 0;
+    text-align: justify;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
