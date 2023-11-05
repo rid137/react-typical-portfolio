@@ -68,8 +68,8 @@ const container = {
 };
 
 const projectVariant = {
-  hidden: { opacity: 0, scale: 0.8 },
-  visible: { opacity: 1, scale: 1 },
+  hidden: { opacity: 0, y: -10 },
+  visible: { opacity: 1, y: 0 },
 };
 
 const Portfolio = () => {
@@ -82,7 +82,7 @@ const Portfolio = () => {
         viewport={{ once: true, amount: 0.5 }}
         transition={{ duration: 0.5 }}
         variants={{
-          hidden: { opacity: 0, y: -50 },
+          hidden: { opacity: 0, y: 50 },
           visible: { opacity: 1, y: 0 },
         }}
       >
@@ -90,7 +90,6 @@ const Portfolio = () => {
         <h2>Projects</h2>
       </motion.div>
 
-      <div >
         <motion.div
           className="container portfolio-container"
           variants={container}
@@ -101,7 +100,8 @@ const Portfolio = () => {
           {
             data.map(({id, title, image, github, demo, body}) => {
               return (
-                  <motion.div variants={projectVariant} key={id}>
+                  // <motion.div variants={projectVariant} key={id}>
+                  <motion.div key={id}>
                     <article className="portfolio-item">
                       <div className="portfolio-item-image">
                         <img src={image} alt="blog-project" />
@@ -119,7 +119,6 @@ const Portfolio = () => {
           }
         </motion.div>
 
-      </div>
     </section>
   );
 }

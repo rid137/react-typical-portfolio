@@ -1,9 +1,9 @@
-import CV from '../../assets/cv.pdf'
+import Ridwan_Makinde_Resume from '../../assets/Ridwan_Makinde_Resume.pdf';
 
 const CTA = () => {
   return (
     <div className='cta'>
-        <a href={CV} className='btn'>Download Resume</a>
+        <a href={Ridwan_Makinde_Resume} className='btn'>Download Resume</a>
         <a href="#contact" className='btn btn-primary'>Lets Talk</a>
     </div>
   );

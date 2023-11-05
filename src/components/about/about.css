@@ -1,27 +1,27 @@
 .about-container {
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
 }
 
 .about-me {
     width: 100%;
-    aspect-ratio: 1/1;
+    /* aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
-    place-items: center;
+    place-items: center; */
 }
 
 .about-me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
+    /* transform: rotate(10deg); */
+    /* transition: var(--transition); */
 }
 
-.about-me-image:hover {
-    transform: rotate(0deg);
+.about-me-image img {
+    max-height: 130%;
 }
 
 .about-cards {
@@ -76,7 +76,7 @@
     }
     
     .about-me {
-        width: 50%;
+        width: 86%;
         margin: 2rem auto 4rem;
     }
 
@@ -95,8 +95,8 @@
 
 @media screen and (max-width: 600px) {
     .about-me {
-        width: 65%;
-        margin: 0 auto 3rem;
+        width: 90%;
+        margin: 0 auto 1rem;
     }
 
     .about-cards {

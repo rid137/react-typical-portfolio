@@ -21,16 +21,16 @@ const Experience = () => {
 
       <div className="container experience-container">
 
-        <motion.div
+        {/* <motion.div
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.5 }}
           variants={{
-            hidden: { opacity: 0, x: -50 },
+            hidden: { opacity: 0, x: 10 },
             visible: { opacity: 1, x: 0 },
           }}
-        >
+        > */}
           <div className="experience-frontend">
             <h3>Frontend Development</h3>
             <div className="experience-content">
@@ -102,7 +102,7 @@ const Experience = () => {
               <article className='experience-details'>
                 <BsPatchCheckFill className='experience-detail-icon' />
                 <div>
-                  <h4>reactjs</h4>
+                  <h4>Reactjs</h4>
                   <small className="text-light">Experienced</small>
                 </div>
               </article>
@@ -110,7 +110,15 @@ const Experience = () => {
               <article className='experience-details'>
                 <BsPatchCheckFill className='experience-detail-icon' />
                 <div>
-                  <h4>nextjs</h4>
+                  <h4>Redux</h4>
+                  <small className="text-light">Basics</small>
+                </div>
+              </article>
+
+              <article className='experience-details'>
+                <BsPatchCheckFill className='experience-detail-icon' />
+                <div>
+                  <h4>Nextjs</h4>
                   <small className="text-light">Basics</small>
                 </div>
               </article>
@@ -126,7 +134,7 @@ const Experience = () => {
               
             </div>
           </div>
-        </motion.div>
+        {/* </motion.div> */}
 
         <motion.div
           initial="hidden"
@@ -134,7 +142,7 @@ const Experience = () => {
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.5 }}
           variants={{
-            hidden: { opacity: 0, x: 15 },
+            hidden: { opacity: 0, x: 10 },
             visible: { opacity: 1, x: 0 },
           }}
         >

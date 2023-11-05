@@ -58,7 +58,7 @@ const Services = () => {
               </li>
               <li>
                 <BiCheck className='service-list-icon'/>
-                <p>Version control systems like Git.</p>
+                <p>Version control systems like Git to collaborate and manage code.</p>
               </li>
               <li>
                 <BiCheck className='service-list-icon'/>

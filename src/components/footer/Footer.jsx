@@ -8,7 +8,7 @@ import { IoLogoTwitter } from 'react-icons/io';
 const Footer = () => {
   return (
     <footer>
-      <motion.div
+      {/* <motion.div
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
@@ -18,8 +18,8 @@ const Footer = () => {
           visible: { opacity: 1, y: 0 },
         }}
       >
-        <a href="#" className='footer-logo'>Ridwan Makinde</a>
-      </motion.div>
+        <a href="#" className='footer-logo'>Innovate.Create.Inspire</a>
+      </motion.div> */}
 
       <motion.div
         initial="hidden"
@@ -70,7 +70,7 @@ const Footer = () => {
         }}
       >
         <div className="footer-copyright">
-          <small>&copy; RoycoMedia 2023</small>
+          <small>&copy; Ridwan Makinde</small>
         </div>
       </motion.div>
     </footer>

@@ -1,6 +1,6 @@
 import './header.css'
 import CTA from './CTA';
-import ME from '../../assets/me.png'
+import portfolioBg2 from '../../assets/portfolioBg2.jpg';
 import HeaderSocials from './HeaderSocials';
 import { motion } from "framer-motion";
 
@@ -51,7 +51,7 @@ const Header = () => {
           }}
         >
           <div className="me">
-            <img src={ME} alt="" />
+            <img src={portfolioBg2} alt="" />
           </div>
         </motion.div>
           

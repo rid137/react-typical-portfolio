@@ -1,26 +1,12 @@
 import './about.css';
-import ME from '../../assets/me-about.jpg';
+import portfolioBg3 from '../../assets/portfolioBg3.jpg';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import { motion } from 'framer-motion';
 
 
-{/* <motion.div
-          className="md:w-1/3 mt-10"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.2, duration: 0.5 }}
-          variants={{
-            hidden: { opacity: 0, y: 50 },
-            visible: { opacity: 1, y: 0 },
-          }}
-        >
-          <div className="me">
-            <img src={ME} alt="" />
-          </div>
-        </motion.div> */}
+
 const About = () => {
   return (
     <section id='about'>
@@ -54,7 +40,7 @@ const About = () => {
         >
           <div className="about-me">
             <div className="about-me-image">
-              <img src={ME} alt="about me image" />
+              <img src={portfolioBg3} alt="about me image" />
             </div>
           </div>
         </motion.div>
