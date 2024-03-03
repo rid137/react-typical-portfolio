@@ -13,7 +13,7 @@ const data = [
     image: IMG1,
     title: 'Printify',
     body: 'A website built for printing company to improve customer’s satisfaction.',
-    github: 'https://github.com/roycoMedia/printify',
+    github: 'https://github.com/rid137/printify',
     demo: 'https://printify-3ai.pages.dev/',
   },
   {
@@ -21,7 +21,7 @@ const data = [
     image: IMG2,
     title: 'Vendors Hub',
     body: 'A platform that connects event vendors with potential customers.',
-    github: 'https://github.com/roycoMedia/VendorsHub',
+    github: 'https://github.com/rid137/VendorsHub',
     demo: 'https://www.vendorshub.com.ng/',
   },
   {
@@ -29,7 +29,7 @@ const data = [
     image: IMG3,
     title: 'Shop Remote',
     body: 'An E-commerce website with stripe payment gateway integration.',
-    github: 'https://github.com/roycoMedia/react-ecommerce',
+    github: 'https://github.com/rid137/react-ecommerce',
     demo: 'https://react-ecommerce-c3u.pages.dev/',
   },
   {
@@ -37,7 +37,7 @@ const data = [
     image: IMG4,
     title: 'The Insight',
     body: 'A react blog website that consumes mock API using axios library',
-    github: 'https://github.com/roycoMedia/The-Insight',
+    github: 'https://github.com/rid137/The-Insight',
     demo: 'https://the-insight.pages.dev/',
   },
   {
@@ -45,7 +45,7 @@ const data = [
     image: IMG5,
     title: "Hair Service",
     body: 'A fully responsive landing page',
-    github: 'https://github.com/roycoMedia/hair-service-landing-page',
+    github: 'https://github.com/rid137/hair-service-landing-page',
     demo: 'https://react-hair.pages.dev/',
   },
   {
@@ -53,7 +53,7 @@ const data = [
     image: IMG6,
     title: 'Note App',
     body: 'A note app with dark/light mode where users perform CRUD operations',
-    github: 'https://github.com/roycoMedia/Note-App',
+    github: 'https://github.com/rid137/Note-App',
     demo: 'https://note-app-9bt.pages.dev/',
   }
 ]
