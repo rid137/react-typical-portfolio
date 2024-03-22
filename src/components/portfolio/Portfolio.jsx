@@ -6,10 +6,21 @@ import IMG3 from '../../assets/portfolio3.jpg';
 import IMG4 from '../../assets/portfolio4.jpg';
 import IMG5 from '../../assets/portfolio5.jpg';
 import IMG6 from '../../assets/portfolio6.jpg';
+import med from '../../assets/medicare.jpeg';
+
+// https://www.rapidmed.care/
 
 const data = [
   {
     id: 1,
+    image: med,
+    title: 'RapidMedicare',
+    body: 'A complete digital clinic system with distint dashboards for doctors, pharmacies and patients.',
+    github: 'https://github.com/specialvick/rapidMedicare-Frontend',
+    demo: 'https://www.rapidmed.care/',
+  },
+  {
+    id: 2,
     image: IMG1,
     title: 'Printify',
     body: 'A website built for printing company to improve customer’s satisfaction.',
@@ -17,7 +28,7 @@ const data = [
     demo: 'https://printify-3ai.pages.dev/',
   },
   {
-    id: 2,
+    id: 3,
     image: IMG2,
     title: 'Vendors Hub',
     body: 'A platform that connects event vendors with potential customers.',
@@ -25,7 +36,7 @@ const data = [
     demo: 'https://www.vendorshub.com.ng/',
   },
   {
-    id: 3,
+    id: 4,
     image: IMG3,
     title: 'Shop Remote',
     body: 'An E-commerce website with stripe payment gateway integration.',
@@ -33,7 +44,7 @@ const data = [
     demo: 'https://react-ecommerce-c3u.pages.dev/',
   },
   {
-    id: 4,
+    id: 5,
     image: IMG4,
     title: 'The Insight',
     body: 'A react blog website that consumes mock API using axios library',
@@ -41,7 +52,7 @@ const data = [
     demo: 'https://the-insight.pages.dev/',
   },
   {
-    id: 5,
+    id: 6,
     image: IMG5,
     title: "Hair Service",
     body: 'A fully responsive landing page',
@@ -49,7 +60,7 @@ const data = [
     demo: 'https://react-hair.pages.dev/',
   },
   {
-    id: 6,
+    id: 7,
     image: IMG6,
     title: 'Note App',
     body: 'A note app with dark/light mode where users perform CRUD operations',
